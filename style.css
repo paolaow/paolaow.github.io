@@ -1,0 +1,37 @@
+h1 {
+    <h1>Datos personales del usuario</h1>
+    color: rgb(43, 10, 228);
+    font-family: 'Arial Black';
+    font-size: 50px;
+}
+h2{
+    color: black;
+    font-family: Arial Black;
+    font-size: 20px;
+}
+/*body{
+    background-image: url('../IMG/Imagen\ 1581703873746.png');
+}*/
+@keyframes Fondo{
+    0%{background-color: red;}
+    10%{background-color: blue;}
+    20%{background-color: green;}
+    30%{background-color: yellow;}
+}
+body{
+    animation:Fondo;
+    animation-name:Fondo;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+form-c {
+    font-family: "tahoma";
+    font-size: 20px;
+    color: white;
+    background:black;
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+
